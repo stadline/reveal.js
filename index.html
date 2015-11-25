@@ -45,7 +45,7 @@
 					<h3>23 & 24 nov. 2015</h3>
 					<p>Created by</p>
                                         <p>
-                                                <small>Nicolas Héraly <a href="http://twitter.com/nheraly">@nheraly</a></small></small><br />
+                                                <small>Nicolas Héraly / <a href="http://twitter.com/nheraly">@nheraly</a></small></small><br />
                                                 <small>Fabien Rondeau / <a href="http://twitter.com/fabienrondeau">@fabienrondeau</a></small><br />
 						<small>Jérôme Weber / <a href="http://twitter.com/jeromeweb">@jeromeweb</a></small><br />
 					</p>                                        
@@ -327,12 +327,13 @@
          			<section>
          				<h2>Manipulation de fichiers</h3>
          				<br/>
-         				<small>
+         				<small style="text-align: left;">
 copy(<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"http://blog.pascal-martin.fr/public/cv/pascal-martin-cv.pdf",
-  <br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"ssh2.sftp://user:pass@test.machine.dev:22/home/user/cv.pdf"<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp);
+  <br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"ssh2.sftp://user:pass@test.machine.dev:22/home/user/cv.pdf"<br/>);
          				</small>
          				<br/>
-         				<p>code beaucoup + souple</p>
+						<p >Un code + souple</p>
+							<img src="https://media.giphy.com/media/d5eiE20bgqpjO/giphy.gif">
      				</section>
      				<section>
      					<h2>Contexte de flux et API</h2>
@@ -347,6 +348,26 @@ file_get_contents($url, false,$context);</p>
 <p>$server = stream_socket_server('tcp://127.0.0.1:8080');<br/>
 					</section>
          		 </section>
+         		 <section>
+					 <section>
+						 <h2>Collaboration Upstream / Downstream</h2>
+						 <small>Remi Collet - Red Hat</small>
+					 </section>
+					 <section>
+						 <h2>Upstream</h2>
+					 </section>
+					 <section>
+						 <h2>Downstream</h2>
+					 </section>
+					 <section>
+						 <h2>Intégration continue sur le projet Fedora</h2>
+						 <ul>
+							 <li>Versions stables</li>
+							 <li>Détection de cassures</li>
+							 <li>Tests des projets/composants qui dépendent d'autres composants</li>
+						 </ul>
+					 </section>
+     		 	</section>
             </div>
 		</div>
             
