@@ -300,6 +300,53 @@
             			<h2>Quality ++</h2>
         			</section>
 	             </section>
+	             <section>
+	             	<section>
+             			<h2>Les flux : méconnus et sous-utilisés</h2>
+	                    <small>Pascal Martin -  TEA, The Ebook Alternative<br />
+	                    <br />
+	                    <a href="http://blog.pascal-martin.fr/public/slides-flux-forum-php-2015/#/title">http://blog.pascal-martin.fr/public/slides-flux-forum-php-2015/#/title</a></small>
+             		</section>
+             		<section>
+         				<h2>Vous avez dit FLUX?</h2>
+         				<ul>
+         					<li>Ressource au comportement streamable</li>
+         					<li>
+         						schema://cible 
+		 						<ul>
+		 							<li>stdout</li>
+		 							<li>stderr</li>
+		 							<li>input</li>
+		 							<li>ouput</li>
+		 							<li>memory</li>
+		 							<li>php://stdin</li>
+								</ul>
+         					</li>
+     					</ul>
+         			</section>
+         			<section>
+         				<h2>Manipulation de fichiers</h3>
+         				<br/>
+         				<small>
+copy(<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"http://blog.pascal-martin.fr/public/cv/pascal-martin-cv.pdf",
+  <br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"ssh2.sftp://user:pass@test.machine.dev:22/home/user/cv.pdf"<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp);
+         				</small>
+         				<br/>
+         				<p>code beaucoup + souple</p>
+     				</section>
+     				<section>
+     					<h2>Contexte de flux et API</h2>
+     					<br/><br/>
+     					<p>stream_context_create($options, $params);<br/><br/>
+
+file_get_contents($url, false,$context);</p>
+ 					</section>
+					<section>
+						<h2>Flux socket</h2>
+     					<br/>
+<p>$server = stream_socket_server('tcp://127.0.0.1:8080');<br/>
+					</section>
+         		 </section>
             </div>
 		</div>
             
